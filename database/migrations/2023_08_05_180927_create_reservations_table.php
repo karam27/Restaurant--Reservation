@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('last_name');
             $table->string('email');
             $table->string('tel_number');
-            $table->dateTime('res_data');
+            $table->dateTime('res_date');
             $table->unsignedBigInteger('table_id');
             $table->integer('guest_number');
             $table->timestamps();
